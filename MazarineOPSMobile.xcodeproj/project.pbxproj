@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03469E5973F92942C2000094 /* DemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C992E6D75C4B488104EFD3 /* DemoData.swift */; };
+		0E335C624EF974AF38E8693F /* MazarineOPSMobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC73BB62927B5A4CC7B108B /* MazarineOPSMobileApp.swift */; };
+		4FC9A06D92A279AEA2BE06B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FCDF7583F12BA567E6BF2BB /* Assets.xcassets */; };
+		60EE38DB606423041D0A4A75 /* Manrope.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40C2DA328CE222B109417BF2 /* Manrope.ttf */; };
+		6C1F1637146714CC8BA2EE22 /* LeadDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC08858A12D0A369B91AB82 /* LeadDetailsView.swift */; };
+		80A62378DBB03CBE681ED843 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5F3B07307F6295456D7D7327 /* OFL.txt */; };
+		985FBABEDB8DB013F6F85384 /* DemoStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5FC678B80AEC9AC2A164F7 /* DemoStoreTests.swift */; };
+		9C17627BF0F6A7D0A96D5843 /* SalesModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588DCA9AC962333F9EEB0724 /* SalesModels.swift */; };
+		BCD746C7A8ED8D911A11BAD8 /* SalesSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CC337F6402921EEAFB99ED /* SalesSheetView.swift */; };
+		BCF3B48B1361871B01661773 /* DemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906A0EF4BD40C7FBD703218B /* DemoStore.swift */; };
+		C32CACDB90FA9491031DB0C6 /* LeadsActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE384E338C077E1696B92C8 /* LeadsActivityView.swift */; };
+		F2B5C9AB3148A35AC7F8DC66 /* MobileFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7369DFC682984F5CB9B38280 /* MobileFlowTests.swift */; };
+		F3B456F79DA71DB829FC20C6 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFBBE88920B1843E98CE53B /* DesignSystem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1CA133D3103B999CD003768 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FCC1FF9CC6164DC3D66FF01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3182F37D30A1A618BEC4AC6;
+			remoteInfo = MazarineOPSMobile;
+		};
+		C8639718EED5922AA06363ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FCC1FF9CC6164DC3D66FF01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3182F37D30A1A618BEC4AC6;
+			remoteInfo = MazarineOPSMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C5FC678B80AEC9AC2A164F7 /* DemoStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoStoreTests.swift; sourceTree = "<group>"; };
+		2FCDF7583F12BA567E6BF2BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36C992E6D75C4B488104EFD3 /* DemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoData.swift; sourceTree = "<group>"; };
+		40C2DA328CE222B109417BF2 /* Manrope.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Manrope.ttf; sourceTree = "<group>"; };
+		588DCA9AC962333F9EEB0724 /* SalesModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesModels.swift; sourceTree = "<group>"; };
+		5F3B07307F6295456D7D7327 /* OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		642C5B31CEEE7B95B67F064A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7369DFC682984F5CB9B38280 /* MobileFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileFlowTests.swift; sourceTree = "<group>"; };
+		83CC337F6402921EEAFB99ED /* SalesSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesSheetView.swift; sourceTree = "<group>"; };
+		83D6DF8878EFC0C2F290A988 /* MazarineOPSMobileTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MazarineOPSMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC73BB62927B5A4CC7B108B /* MazarineOPSMobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazarineOPSMobileApp.swift; sourceTree = "<group>"; };
+		906A0EF4BD40C7FBD703218B /* DemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoStore.swift; sourceTree = "<group>"; };
+		91DD1F00AF2852868F5021F2 /* MazarineOPSMobile.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MazarineOPSMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC08858A12D0A369B91AB82 /* LeadDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadDetailsView.swift; sourceTree = "<group>"; };
+		9EFBBE88920B1843E98CE53B /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		9F472C8B51D1071BE7001A44 /* MazarineOPSMobileUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MazarineOPSMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE384E338C077E1696B92C8 /* LeadsActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadsActivityView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0B1241B6E8AE26975B91FC38 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2FCDF7583F12BA567E6BF2BB /* Assets.xcassets */,
+				F759A7FF8632463BCF3BDE59 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0EF054B562C590D4BEDA2386 /* MazarineOPSMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C5FC678B80AEC9AC2A164F7 /* DemoStoreTests.swift */,
+			);
+			path = MazarineOPSMobileTests;
+			sourceTree = "<group>";
+		};
+		1AC8D09F89000B70DF9E3365 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				9AC08858A12D0A369B91AB82 /* LeadDetailsView.swift */,
+				CAE384E338C077E1696B92C8 /* LeadsActivityView.swift */,
+				83CC337F6402921EEAFB99ED /* SalesSheetView.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		4678A5308EB10FE42BFEFB84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91DD1F00AF2852868F5021F2 /* MazarineOPSMobile.app */,
+				83D6DF8878EFC0C2F290A988 /* MazarineOPSMobileTests.xctest */,
+				9F472C8B51D1071BE7001A44 /* MazarineOPSMobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C1102989616E48E65795565 /* MazarineOPSMobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7369DFC682984F5CB9B38280 /* MobileFlowTests.swift */,
+			);
+			path = MazarineOPSMobileUITests;
+			sourceTree = "<group>";
+		};
+		5F6C93462229602C59A26FBE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9EFBBE88920B1843E98CE53B /* DesignSystem.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		72A20BE551C44764C5464985 = {
+			isa = PBXGroup;
+			children = (
+				C38E03314C2DE8EF26016FAD /* MazarineOPSMobile */,
+				0EF054B562C590D4BEDA2386 /* MazarineOPSMobileTests */,
+				5C1102989616E48E65795565 /* MazarineOPSMobileUITests */,
+				4678A5308EB10FE42BFEFB84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97AE058D7F977AE3EE244AE2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				36C992E6D75C4B488104EFD3 /* DemoData.swift */,
+				588DCA9AC962333F9EEB0724 /* SalesModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C38E03314C2DE8EF26016FAD /* MazarineOPSMobile */ = {
+			isa = PBXGroup;
+			children = (
+				642C5B31CEEE7B95B67F064A /* Info.plist */,
+				C4C8A6EB2BEF7716149199F0 /* App */,
+				5F6C93462229602C59A26FBE /* Core */,
+				1AC8D09F89000B70DF9E3365 /* Features */,
+				97AE058D7F977AE3EE244AE2 /* Models */,
+				0B1241B6E8AE26975B91FC38 /* Resources */,
+			);
+			path = MazarineOPSMobile;
+			sourceTree = "<group>";
+		};
+		C4C8A6EB2BEF7716149199F0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				906A0EF4BD40C7FBD703218B /* DemoStore.swift */,
+				8FC73BB62927B5A4CC7B108B /* MazarineOPSMobileApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F759A7FF8632463BCF3BDE59 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				40C2DA328CE222B109417BF2 /* Manrope.ttf */,
+				5F3B07307F6295456D7D7327 /* OFL.txt */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		244607ECB1AB1CF3668E93D9 /* MazarineOPSMobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B527115395471437B02E3AD /* Build configuration list for PBXNativeTarget "MazarineOPSMobileUITests" */;
+			buildPhases = (
+				96E228E25B319615167670CC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64DCF8382AE8C5C8BA214056 /* PBXTargetDependency */,
+			);
+			name = MazarineOPSMobileUITests;
+			packageProductDependencies = (
+			);
+			productName = MazarineOPSMobileUITests;
+			productReference = 9F472C8B51D1071BE7001A44 /* MazarineOPSMobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		895C4F524B36E8C1DBB3AE73 /* MazarineOPSMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E407DC908096FEA9F83E8F2C /* Build configuration list for PBXNativeTarget "MazarineOPSMobileTests" */;
+			buildPhases = (
+				CFC91114F91B07817BC26956 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E088B1CDDB6FA0284D786C06 /* PBXTargetDependency */,
+			);
+			name = MazarineOPSMobileTests;
+			packageProductDependencies = (
+			);
+			productName = MazarineOPSMobileTests;
+			productReference = 83D6DF8878EFC0C2F290A988 /* MazarineOPSMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3182F37D30A1A618BEC4AC6 /* MazarineOPSMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5497D401AB947F4F75C2D9CD /* Build configuration list for PBXNativeTarget "MazarineOPSMobile" */;
+			buildPhases = (
+				8BD62EA9156FF7899EE7C0B6 /* Sources */,
+				3D87B4849FC67D826B1955ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MazarineOPSMobile;
+			packageProductDependencies = (
+			);
+			productName = MazarineOPSMobile;
+			productReference = 91DD1F00AF2852868F5021F2 /* MazarineOPSMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FCC1FF9CC6164DC3D66FF01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					244607ECB1AB1CF3668E93D9 = {
+						ProvisioningStyle = Automatic;
+						TestTargetID = D3182F37D30A1A618BEC4AC6;
+					};
+					895C4F524B36E8C1DBB3AE73 = {
+						ProvisioningStyle = Automatic;
+					};
+					D3182F37D30A1A618BEC4AC6 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C73962E741C582772DC4D1A6 /* Build configuration list for PBXProject "MazarineOPSMobile" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 72A20BE551C44764C5464985;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4678A5308EB10FE42BFEFB84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3182F37D30A1A618BEC4AC6 /* MazarineOPSMobile */,
+				895C4F524B36E8C1DBB3AE73 /* MazarineOPSMobileTests */,
+				244607ECB1AB1CF3668E93D9 /* MazarineOPSMobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D87B4849FC67D826B1955ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FC9A06D92A279AEA2BE06B3 /* Assets.xcassets in Resources */,
+				60EE38DB606423041D0A4A75 /* Manrope.ttf in Resources */,
+				80A62378DBB03CBE681ED843 /* OFL.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BD62EA9156FF7899EE7C0B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03469E5973F92942C2000094 /* DemoData.swift in Sources */,
+				BCF3B48B1361871B01661773 /* DemoStore.swift in Sources */,
+				F3B456F79DA71DB829FC20C6 /* DesignSystem.swift in Sources */,
+				6C1F1637146714CC8BA2EE22 /* LeadDetailsView.swift in Sources */,
+				C32CACDB90FA9491031DB0C6 /* LeadsActivityView.swift in Sources */,
+				0E335C624EF974AF38E8693F /* MazarineOPSMobileApp.swift in Sources */,
+				9C17627BF0F6A7D0A96D5843 /* SalesModels.swift in Sources */,
+				BCD746C7A8ED8D911A11BAD8 /* SalesSheetView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E228E25B319615167670CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B5C9AB3148A35AC7F8DC66 /* MobileFlowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC91114F91B07817BC26956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				985FBABEDB8DB013F6F85384 /* DemoStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64DCF8382AE8C5C8BA214056 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3182F37D30A1A618BEC4AC6 /* MazarineOPSMobile */;
+			targetProxy = C8639718EED5922AA06363ED /* PBXContainerItemProxy */;
+		};
+		E088B1CDDB6FA0284D786C06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3182F37D30A1A618BEC4AC6 /* MazarineOPSMobile */;
+			targetProxy = C1CA133D3103B999CD003768 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1837BDA0FF5E89317CEF1457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4AFC63020BE5D30B7D289888 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.mazarine.MazarineOPSMobileTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MazarineOPSMobile.app/MazarineOPSMobile";
+			};
+			name = Debug;
+		};
+		4DDEB8B676176A617FABB16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4FE86DC15BA1235F9920F1E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.mazarine.MazarineOPSMobileUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MazarineOPSMobile;
+			};
+			name = Release;
+		};
+		57589AD7AC83F454C7D9D4A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.mazarine.MazarineOPSMobileTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MazarineOPSMobile.app/MazarineOPSMobile";
+			};
+			name = Release;
+		};
+		58C7E8A1FDF3EC98E5C740B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.mazarine.MazarineOPSMobileUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MazarineOPSMobile;
+			};
+			name = Debug;
+		};
+		A22E56D9C1E6703EB1EC097A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MazarineOPSMobile/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "MAZARINE OPS";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.mazarine.ops.mobile;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C352718852930EF5956E2B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MazarineOPSMobile/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "MAZARINE OPS";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.mazarine.ops.mobile;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5497D401AB947F4F75C2D9CD /* Build configuration list for PBXNativeTarget "MazarineOPSMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A22E56D9C1E6703EB1EC097A /* Debug */,
+				C352718852930EF5956E2B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9B527115395471437B02E3AD /* Build configuration list for PBXNativeTarget "MazarineOPSMobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58C7E8A1FDF3EC98E5C740B8 /* Debug */,
+				4FE86DC15BA1235F9920F1E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C73962E741C582772DC4D1A6 /* Build configuration list for PBXProject "MazarineOPSMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1837BDA0FF5E89317CEF1457 /* Debug */,
+				4DDEB8B676176A617FABB16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E407DC908096FEA9F83E8F2C /* Build configuration list for PBXNativeTarget "MazarineOPSMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AFC63020BE5D30B7D289888 /* Debug */,
+				57589AD7AC83F454C7D9D4A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FCC1FF9CC6164DC3D66FF01 /* Project object */;
+}
